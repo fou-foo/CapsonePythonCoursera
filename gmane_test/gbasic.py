@@ -2,7 +2,7 @@ import sqlite3
 import time
 import zlib
 
-howmany = 500 # set
+howmany = 10 # set
 
 conn = sqlite3.connect('index.sqlite')
 cur = conn.cursor()

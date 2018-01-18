@@ -36,8 +36,8 @@ for k in x[:100]:
 print('Range of counts:',highest,lowest)
 
 # Spread the font sizes across 20-100 based on the count
-bigsize = 80
-smallsize = 20
+bigsize = 190
+smallsize = 50
 
 fhand = open('gword.js','w')
 fhand.write("gword = [")
